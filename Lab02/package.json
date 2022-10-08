@@ -1,0 +1,26 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "",
+  "require": true,
+  "main": "index.js",
+  
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon ./server.js localhost:8088"
+  },
+  "keywords": [
+    "Node.js",
+    "express",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
